@@ -1,0 +1,46 @@
+﻿Build started 04-Jul-14 2:50:06 PM.
+     1>Project "C:\Users\X0217454\Desktop\VSW\Current_Meter\Current_Meter\Current_Meter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Current_Meter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Current_Meter.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Current_Meter.cpp /clr:nostdlib 
+         Current_Meter.cpp
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1086): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1088): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1045): warning C4101: 'uiDevIndex' : unreferenced local variable
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1594): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1619): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1643): warning C4215: nonstandard extension used : long float
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1646): warning C4215: nonstandard extension used : long float
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1647): warning C4215: nonstandard extension used : long float
+     1>c:\users\x0217454\desktop\vsw\current_meter\current_meter\Form1.h(1758): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         All outputs are up-to-date.
+       CoreResGen:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\X0217454\Desktop\VSW\Current_Meter\Debug\Current_Meter.exe" /INCREMENTAL /NOLOGO C:\Users\X0217454\Desktop\VSW\FTDIControl\FTDIControl\i386\ftd2xx.lib C:\Users\X0217454\Desktop\VSW\Read_FTDI_SPI\Read_FTDI_SPI\libMPSSE.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\Current_Meter.Form1.resources /MANIFEST /ManifestFile:"Debug\Current_Meter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\X0217454\Desktop\VSW\Current_Meter\Debug\Current_Meter.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Current_Meter.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Current_Meter.vcxproj -> C:\Users\X0217454\Desktop\VSW\Current_Meter\Debug\Current_Meter.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\X0217454\Desktop\VSW\Current_Meter\Debug\Current_Meter.exe;#1" /manifest Debug\Current_Meter.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Current_Meter.unsuccessfulbuild".
+         Touching "Debug\Current_Meter.lastbuildstate".
+     1>Done Building Project "C:\Users\X0217454\Desktop\VSW\Current_Meter\Current_Meter\Current_Meter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.82
